@@ -57,12 +57,17 @@ const GeneratePDF = () => {
         }
 
         pdf.save("resume.pdf");
+
+        setTimeout(() => {
+          window.location.reload(); // Refresh the page after some time
+      }, 2000);
       },
       x: margin,
       y: margin,
       html2canvas: { scale: 0.75, useCORS: true, scrollX: 0, scrollY: -margin },
       autoPaging: true, // Ensure auto paging for content
     });
+
   };
 
 
