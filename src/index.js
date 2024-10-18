@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/resume-app">  {/* Add basename here */}
     <App />
   </BrowserRouter>,
   document.getElementById('root')

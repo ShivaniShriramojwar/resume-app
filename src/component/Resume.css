@@ -1,6 +1,6 @@
 .resume-container {
     max-width: 850px; /* Width for A4 paper */
-    /* max-width: 595.28px;  */
+
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px; /* Add padding to ensure there's space around the content */
@@ -72,7 +72,94 @@ ul li {
   .company-duration p {
     margin: 0;
   }
+  .download-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin-bottom: 20px; /* Add space between button and content */
+}
 
+.download-btn {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px 24px; /* Padding for space around text */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin: 15px 15px;
+}
+
+.responsive-heading {
+    font-size: 30px; /* Default size for large screens */
+    margin: 0; /* Optional: remove margin if needed */
+}
+
+
+.contact-info {
+    line-height: 24px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-info span {
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.contact-info a {
+    vertical-align: middle;
+}
+
+  @media (max-width: 768px) {
+    .resume-container {
+        margin: 10px 10px; /* Add margin-top for tablets */
+
+    }
+    .download-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 10px 5px 0px 10px;
+    }
+    .responsive-heading {
+        font-size: 24px !important; /* Smaller font for tablets */
+    }
+    .contact-info {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-container {
+        margin-top: 10px 10px; /* Add more margin-top for mobile devices */
+    }
+    .download-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+        margin: 10px 5px 0px 10px;
+    }
+    .responsive-heading {
+        font-size: 20px !important; /* Even smaller font for mobile phones */
+    }
+    .contact-info {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .contact-info span,
+    .contact-info a {
+        display: block;
+        margin-bottom: 0px;
+    }
+}
 
 @media print {
     .resume-container {

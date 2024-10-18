@@ -65,9 +65,10 @@ const GeneratePDF = () => {
     });
   };
 
+
   return (
     <div>
-      <button onClick={generatePDF}>Download PDF</button>
+      <button className="download-btn" onClick={generatePDF}>Download PDF</button>
       <div id="resume-content" className="resume-container">
         <Header />
         <Skills />
