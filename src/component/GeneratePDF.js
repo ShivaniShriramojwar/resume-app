@@ -2,20 +2,19 @@ import React from "react";
 import jsPDF from "jspdf";
 import "./Resume.css";
 import Header from "./Header";
-import Objective from "./Objective";
+
 import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
-import Certifications from "./Certifications";
-import Projects from "./Projects";
-import Development from "./Development";
-import References from "./Reference";
+ import Summary  from "./Summary";
 import AwardsAchievements from "./AwardsAchievements";
+import ProfessionalExperience from "./ProfessionalExperience";
+
 
 const GeneratePDF = () => {
   const generatePDF = () => {
     const content = document.querySelector("#resume-content");
-    const doc = new jsPDF("p", "pt", [700, 1000]); // Width: 700pt, Height: 1000pt
+    const doc = new jsPDF("p", "pt", [680, 850]); // Width: 700pt, Height: 1000pt
 
     // const doc = new jsPDF('p', 'pt', 'a4');
     const margin = 20; // Add margin value to ensure content doesn't stick to the edges
@@ -77,9 +76,12 @@ const GeneratePDF = () => {
       <div id="resume-content" className="resume-container">
         <Header />
         <Skills />
-        <Experience />
-        <AwardsAchievements />
+        <Summary />
+        <ProfessionalExperience />
+        {/* <Experience /> */}
         <Education />
+        <AwardsAchievements />
+
       </div>
     </div>
   );

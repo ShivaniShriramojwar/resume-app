@@ -8,7 +8,7 @@
     color: #333;
     text-align: left;
     border: #333 2px solid;
-    font-size: 16px;
+    font-size: 18px;
     /* text-align: center; Center align text */
 }
 
@@ -61,6 +61,10 @@ ul li {
     margin-bottom: 5px;
     font-size: 14px; /* Standard font size */
 }
+.contact-info a, .contact-info span {
+    font-size: 18px;
+  }
+
 .company-duration {
     display: flex;
     justify-content: space-between;
