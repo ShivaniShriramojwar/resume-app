@@ -30,7 +30,7 @@ const projectsData = [
     description: [
       'Implemented secure login authentication, reducing unauthorized access attempts by 95%.',
       'Implemented backend API integrations that enabled dynamic course mapping, resulting in a 40% increase in content accessibility and decreasing load times to under 2 seconds, significantly enhancing user experience across the platform'
-      // 'Integrated backend APIs for dynamic course mapping, improving content accessibility by 40% and reducing load times by 20%.',
+
     ],
   },
   {
