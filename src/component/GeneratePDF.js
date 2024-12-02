@@ -8,7 +8,7 @@ import Education from "./Education";
 import Skills from "./Skills";
  import Summary  from "./Summary";
 import AwardsAchievements from "./AwardsAchievements";
-import ProfessionalExperience from "./ProfessionalExperience";
+// import ProfessionalExperience from "./ProfessionalExperience";
 
 
 const GeneratePDF = () => {
@@ -77,8 +77,8 @@ const GeneratePDF = () => {
         <Header />
         <Skills />
         <Summary />
-        <ProfessionalExperience />
-        {/* <Experience /> */}
+        {/* <ProfessionalExperience /> */}
+        <Experience />
         <Education />
         <AwardsAchievements />
 
