@@ -3,12 +3,16 @@
 
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 20px; /* Add padding to ensure there's space around the content */
+    padding-left: 20px; /* Add padding to ensure there's space around the content */
+    padding-right: 20px; /* Add padding to ensure there's space around the content */
+    padding-top: 15px; /* Add padding to ensure there's space around the content */
+    padding-bottom: 15px; /* Add padding to ensure there's space around the content */
     font-family: Arial, sans-serif;
     color: #333;
     text-align: left;
     border: #333 2px solid;
     font-size: 18px;
+    
     /* text-align: center; Center align text */
 }
 
@@ -17,9 +21,9 @@
 /* styles.css */
 .resume-header {
   text-align: center;
-  padding-top: 1rem;
+  padding-bottom: 3px;
 
-padding-bottom: 1rem;  /* border-bottom: 1px solid #ccc; */
+ /* border-bottom: 1px solid #ccc; */
 }
 
 .resume-header h1 {

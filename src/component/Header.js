@@ -21,8 +21,8 @@ const Header = () => (
         Front-End Developer | 3.8 Years’ Experience | React.js | Next.js | TypeScript | SEO & Performance Optimization
       </h2>
       <p className="contact">
-  📞 +91 7020955345 | ✉️{" "}
-  <a href="mailto:shivani15bs@gmail.com">shivani15bs@gmail.com</a> | 🔗{" "}
+   +91 7020955345 | {" "}
+  <a href="mailto:shivani15bs@gmail.com">shivani15bs@gmail.com</a> | {" "}
   <a
     href="https://www.linkedin.com/in/shivanishriramojwar"
     target="_blank"
