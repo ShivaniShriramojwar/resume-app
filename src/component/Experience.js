@@ -144,7 +144,7 @@ import React from 'react';
     description: [
       'Integrated Google Analytics, boosting SEO visibility by 90% and user engagement by 50%.',
       'Built responsive landing pages with designers, reducing bounce rate by 30%.',
-      'Implemented secure authentication, cutting unauthorized access by 95%.',
+      'Introduced role-based access control (RBAC), ensuring secure data access and improving compliance.',
       'Developed tools such as real-time chat, dashboards, and interactive music features.',
       'Optimized load times under 2 seconds and improved accessibility by 40%.'
     ]
