@@ -75,8 +75,9 @@ const GeneratePDF = () => {
       <button className="download-btn" onClick={generatePDF}>Download PDF</button>
       <div id="resume-content" className="resume-container">
         <Header />
-        <Skills />
+        
         <Summary />
+         <Skills />
         {/* <ProfessionalExperience /> */}
         <Experience />
         <Education />
