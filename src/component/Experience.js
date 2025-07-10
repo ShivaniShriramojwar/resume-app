@@ -130,7 +130,7 @@ import React from 'react';
     company: 'NxtGen Cloud Technologies Private Limited',
     duration: 'Jan 2025 – Present',
     description: [
-      'Developed and launched the official static website (nxtgen.com) with responsive design and optimized performance.',
+      'Developed and launched the official website (nxtgen.com) with responsive design and optimized performance.',
       'Built Speed Cloud 2.0 platform for real-time AI/processor instance management.',
       'Integrated secure APIs for authentication, billing, and support ticketing systems.',
       'Created reusable components and dashboards using Tailwind CSS and ShadCN UI.',
