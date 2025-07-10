@@ -127,7 +127,7 @@ import React from 'react';
  const combinedData = [
   {
     title: 'Senior Executive Full Stack Developer',
-    company: 'NxtGen Cloud and Data Center',
+    company: 'NxtGen Cloud Technologies Private Limited',
     duration: 'Jan 2025 – Present',
     description: [
       'Developed and launched the official static website (nxtgen.com) with responsive design and optimized performance.',
