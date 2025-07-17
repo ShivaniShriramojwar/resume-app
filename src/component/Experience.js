@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // const experienceData = [
 //   {
@@ -49,7 +49,6 @@ import React from 'react';
 //     ],
 //   },
 // ];
-
 
 // const combinedData = [
 //   {
@@ -102,7 +101,7 @@ import React from 'react';
 //     'Developed a fully responsive static website using React and Vite, ensuring fast performance and optimized build.',
 //     'Utilized Tailwind CSS for utility-first, clean, and scalable UI styling across all components.',
 //     'Designed and implemented reusable React components to maintain consistency and improve development efficiency.',
-     
+
 //   ],
 // },
 //      {
@@ -124,61 +123,57 @@ import React from 'react';
 //   },
 // ];
 
- const combinedData = [
+const combinedData = [
   {
-    title: 'Senior Executive Full Stack Developer',
-    company: 'NxtGen Cloud Technologies Private Limited',
-    duration: 'Jan 2025 – Present',
+    title: "Senior Executive Full Stack Developer",
+    company: "NxtGen Cloud Technologies Private Limited",
+    duration: "Jan 2025 – Present",
     description: [
-      'Developed and launched the official website (nxtgen.com) with responsive design and optimized performance.',
-      'Built Speed Cloud 2.0 platform for real-time AI/processor instance management.',
-      'Integrated secure APIs for authentication, billing, and support ticketing systems.',
-      'Created reusable components and dashboards using Tailwind CSS and ShadCN UI.',
-      'Implemented role-based access, React Query, and collaborated with backend teams for cloud resource provisioning.'
-    ]
+      "Developed and launched the official website (nxtgen.com) with responsive design and optimized performance, improving page load speed by 40%.",
+      "Built Speed Cloud 2.0, a cloud infrastructure management platform for selling and provisioning AI/processor instances with real-time monitoring, enabling 99% uptime and increasing platform usage by 25%.",
+      "Integrated billing modules to track instance usage and generate detailed invoices, reducing manual accounting efforts by 60%.",
+      "Implemented a ticketing system for user support and file sharing improving issue resolution turnaround by 35%.",
+      "Designed dashboards to monitor active instances, AI workloads which enhancing user productivity by 20%.",
+      "Implemented Role-Based Access Control (RBAC) method and data fetching with React Query, streamlining user permission control and reducing security risks by 40%.",
+      'Built "MyCloud", an internal Customer Lifecycle Management (CLM) platform for customer onboarding, service management, and payments, improving operational efficiency by 30%.',
+    ],
   },
   {
-    title: 'Executive Front-End Developer',
-    company: 'Furtados High Music Pvt. Ltd, Mumbai',
-    duration: 'May 2021 – Oct 2024',
+    title: "Executive Front-End Developer",
+    company: "Furtados High Music Pvt. Ltd, Mumbai",
+    duration: "May 2021 – Oct 2024",
     description: [
-      'Integrated Google Analytics, boosting SEO visibility by 90% and user engagement by 50%.',
-      'Built responsive landing pages with designers, reducing bounce rate by 30%.',
-      'Introduced role-based access control (RBAC), ensuring secure data access and improving compliance.',
-      'Developed tools such as real-time chat, dashboards, and interactive music features.',
-      'Optimized load times under 2 seconds and improved accessibility by 40%.'
-    ]
-  }
+      "Integrated Google Analytics, boosting SEO visibility by 90% and user engagement by 50%.",
+      "Built responsive landing pages with designers, reducing bounce rate by 30%.",
+      "Introduced role-based access control (RBAC), ensuring secure data access and improving compliance.",
+      "Developed tools such as real-time chat, dashboards, and interactive music features.",
+      "Optimized load times under 2 seconds and improved accessibility by 40%.",
+    ],
+  },
 ];
-
-
-
 
 const ExperienceProjects = () => {
   return (
     <div className="experience-projects">
-  <section>
-    <h2>Professional Experience</h2>
+      <section>
+        <h2>Professional Experience</h2>
 
-    {combinedData.map((job, index) => (
-      <div key={index} className="job" style={{ marginBottom: '25px' }}>
-        <h3 style={{ margin: '0' }}>{job.title}</h3>
-        <p style={{ margin: '0' }}>{job.company}</p>
-        <p style={{ fontWeight: 'bold' }}>{job.duration}</p>
+        {combinedData.map((job, index) => (
+          <div key={index} className="job" style={{ marginBottom: "25px" }}>
+            <h3 style={{ margin: "0" }}>{job.title}</h3>
+            <p style={{ margin: "0" }}>{job.company}</p>
+            <p style={{ fontWeight: "bold" }}>{job.duration}</p>
 
-        <ul style={{ margin: '10px 0' }}>
-          {job.description.map((item, idx) => (
-            <li key={idx}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    ))}
-  </section>
-</div>
-
+            <ul style={{ margin: "10px 0" }}>
+              {job.description.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+    </div>
   );
 };
 
-
 export default ExperienceProjects;
-

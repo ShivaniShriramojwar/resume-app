@@ -6,10 +6,9 @@ import Header from "./Header";
 import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
- import Summary  from "./Summary";
+import Summary from "./Summary";
 import AwardsAchievements from "./AwardsAchievements";
 // import ProfessionalExperience from "./ProfessionalExperience";
-
 
 const GeneratePDF = () => {
   const generatePDF = () => {
@@ -59,30 +58,29 @@ const GeneratePDF = () => {
 
         setTimeout(() => {
           window.location.reload(); // Refresh the page after some time
-      }, 2000);
+        }, 2000);
       },
       x: margin,
       y: margin,
       html2canvas: { scale: 0.75, useCORS: true, scrollX: 0, scrollY: -margin },
       autoPaging: true, // Ensure auto paging for content
     });
-
   };
-
 
   return (
     <div>
-      <button className="download-btn" onClick={generatePDF}>Download PDF</button>
+      <button className="download-btn" onClick={generatePDF}>
+        Download PDF
+      </button>
       <div id="resume-content" className="resume-container">
         <Header />
-        
+
         <Summary />
-         <Skills />
+        <Skills />
         {/* <ProfessionalExperience /> */}
         <Experience />
         <Education />
         <AwardsAchievements />
-
       </div>
     </div>
   );

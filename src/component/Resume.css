@@ -1,39 +1,35 @@
 .resume-container {
-    max-width: 850px; /* Width for A4 paper */
+  max-width: 850px; /* Width for A4 paper */
 
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding-left: 20px; /* Add padding to ensure there's space around the content */
-    padding-right: 20px; /* Add padding to ensure there's space around the content */
-    padding-top: 15px; /* Add padding to ensure there's space around the content */
-    padding-bottom: 15px; /* Add padding to ensure there's space around the content */
-    font-family: Arial, sans-serif;
-    color: #333;
-    text-align: left;
-    border: #333 2px solid;
-    font-size: 18px;
-    
-    /* text-align: center; Center align text */
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 20px; /* Add padding to ensure there's space around the content */
+  padding-right: 20px; /* Add padding to ensure there's space around the content */
+  padding-top: 15px; /* Add padding to ensure there's space around the content */
+  padding-bottom: 15px; /* Add padding to ensure there's space around the content */
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: left;
+  border: #333 2px solid;
+  font-size: 18px;
+
+  /* text-align: center; Center align text */
 }
-
-
 
 /* styles.css */
 .resume-header {
   text-align: center;
 
-
- /* border-bottom: 1px solid #ccc; */
+  /* border-bottom: 1px solid #ccc; */
 }
 
 .resume-header h1 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin:0;
-   
+  margin: 0;
 }
-h1{
-    padding-bottom:5px;
+h1 {
+  padding-bottom: 5px;
 }
 
 .resume-header p {
@@ -42,161 +38,165 @@ h1{
   font-size: 0.9rem;
 }
 
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
+h2 {
+  font-size: 1.4rem;
+  border-bottom: #b3b3b3 2px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 24px; /* Larger font for name */
+  margin: 0;
+  font-size: 24px; /* Larger font for name 
 }
 
 header p {
-    margin: 5px 0;
-    font-size: 14px; /* Standard font size for contact info */
-}
+  margin: 5px 0;
+  font-size: 14px; /* Standard font size for contact info
+} */
 
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
+  margin-bottom: 0;
 }
 section {
-    margin-bottom: 20px;
-    page-break-inside: avoid; /* Prevent page breaks inside sections */
+  margin-bottom: 5px;
+  page-break-inside: avoid; /* Prevent page breaks inside sections */
 }
 
 .role {
-    border-bottom: 2px solid #333;
-    padding-bottom:5px;
-
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
 }
 
 .job h3 {
-    margin: 0;
-    font-size: 16px; /* Job title font size */
+  margin: 0;
+  font-size: 16px; /* Job title font size */
 }
 
 .job p {
-    margin: 5px 0;
-    font-size: 14px; /* Standard font size */
+  margin: 5px 0;
+  font-size: 14px; /* Standard font size */
 }
 
 ul {
-    margin: 0;
-    padding-left: 20px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 ul li {
-    margin-bottom: 5px;
-    font-size: 14px; /* Standard font size */
+  margin-bottom: 5px;
+  font-size: 14px; /* Standard font size */
 }
-.contact-info a, .contact-info span {
-    font-size: 18px;
-  }
+.contact-info a,
+.contact-info span {
+  font-size: 14px;
+}
 
 .company-duration {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px 0px 5px 0px;
-    font-size: 13px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+  font-size: 13px;
+}
 
-  .company-duration p {
-    margin: 0;
-  }
-  .download-btn {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Add some padding */
-    font-size: 16px; /* Font size */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-    margin-bottom: 20px; /* Add space between button and content */
+.company-duration p {
+  margin: 0;
+}
+.download-btn {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin-bottom: 20px; /* Add space between button and content */
 }
 
 .download-btn {
-    background-color: #007BFF; /* Blue background */
-    color: white; /* White text */
-    border: none; /* No border */
-    padding: 12px 24px; /* Padding for space around text */
-    font-size: 16px; /* Set font size */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
-    margin: 15px 15px;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 12px 24px; /* Padding for space around text */
+  font-size: 16px; /* Set font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin: 15px 15px;
 }
 
 .responsive-heading {
-    font-size: 30px; /* Default size for large screens */
-    margin: 0; /* Optional: remove margin if needed */
+  font-size: 24px; /* Default size for large screens */
+  margin: 0; /* Optional: remove margin if needed */
 }
 
-
 .contact-info {
-    line-height: 24px;
-    font-size: 14px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
+  line-height: 24px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .contact-info span {
-    vertical-align: middle;
-    margin-right: 16px;
+  vertical-align: middle;
+  margin-right: 16px;
 }
 
 .contact-info a {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-  @media (max-width: 768px) {
-    .resume-container {
-        margin: 10px 10px; /* Add margin-top for tablets */
-
-    }
-    .download-btn {
-        font-size: 14px;
-        padding: 10px 20px;
-        margin: 10px 5px 0px 10px;
-    }
-    .responsive-heading {
-        font-size: 24px !important; /* Smaller font for tablets */
-    }
-    .contact-info {
-        font-size: 12px;
-        line-height: 20px;
-    }
+@media (max-width: 768px) {
+  .resume-container {
+    margin: 10px 10px; /* Add margin-top for tablets */
+  }
+  .download-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px 5px 0px 10px;
+  }
+  .responsive-heading {
+    font-size: 24px !important; /* Smaller font for tablets */
+  }
+  .contact-info {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    .resume-container {
-        margin-top: 10px 10px; /* Add more margin-top for mobile devices */
-    }
-    .download-btn {
-        font-size: 12px;
-        padding: 8px 16px;
-        margin: 10px 5px 0px 10px;
-    }
-    .responsive-heading {
-        font-size: 20px !important; /* Even smaller font for mobile phones */
-    }
-    .contact-info {
-        font-size: 14px;
-        line-height: 18px;
-    }
+  .resume-container {
+    margin-top: 10px 10px; /* Add more margin-top for mobile devices */
+  }
+  .download-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 10px 5px 0px 10px;
+  }
+  .responsive-heading {
+    font-size: 20px !important; /* Even smaller font for mobile phones */
+  }
+  .contact-info {
+    font-size: 14px;
+    line-height: 18px;
+  }
 
-    .contact-info span,
-    .contact-info a {
-        display: block;
-        margin-bottom: 0px;
-    }
+  .contact-info span,
+  .contact-info a {
+    display: block;
+    margin-bottom: 0px;
+  }
 }
 
 @media print {
-    .resume-container {
-        page-break-before: always; /* Ensure margin at the top of new pages */
-    }
+  .resume-container {
+    page-break-before: always; /* Ensure margin at the top of new pages */
+  }
 }
