@@ -7,8 +7,8 @@ const Education = () => (
       <li style={{ marginBottom: '15px' }}>
         <h3>Master's in Computer Applications</h3>
         <p style={{marginTop:"-10px"}}>
-          Government College of Engineering, Karad, 2021<br />
-          CGPA: 7.5
+          Government College of Engineering, Karad, 2021
+          (CGPA: 7.5)
         </p>
       </li>
       {/* <li>
