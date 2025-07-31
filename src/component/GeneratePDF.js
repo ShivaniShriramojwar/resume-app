@@ -8,6 +8,7 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Summary from "./Summary";
 import AwardsAchievements from "./AwardsAchievements";
+import CoverLetter from "./CoverLetter";
 // import ProfessionalExperience from "./ProfessionalExperience";
 
 const GeneratePDF = () => {
@@ -73,11 +74,13 @@ const GeneratePDF = () => {
         Download PDF
       </button>
       <div id="resume-content" className="resume-container">
+        {/* <div id="resume-content" className="cover-container">
+        <CoverLetter /> */}
         <Header />
 
         <Summary />
         <Skills />
-        {/* <ProfessionalExperience /> */}
+
         <Experience />
         <Education />
         <AwardsAchievements />
